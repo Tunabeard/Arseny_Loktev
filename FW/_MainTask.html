@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Блочная вёрстка</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <style>
+      ul, li {
+        margin: 0px;
+      }
+      code {
+        padding: 15px;
+        margin-bottom: 25px;
+        font-size: 12pt;
+        white-space: pre-wrap;
+        display: block;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <!-- Шапка -->
+      <div class="row">
+        <div class="twelve columns">
+          <h1 style = "margin-top: 50px; margin-bottom: 50px">HOW-TO: Программа на Python, часть 2</h1>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <!-- Левый мини-блок с легендой -->
+        <div class="four columns">
+          <ul>
+            <li><a href = "http://www.google.com"><small>HOW-TO: Программа на Python, часть 1</small></a></li>
+            <li><a href = "http://www.google.com"><small>HOW-TO: Программа на Python, часть 2</small></a></li>
+            <li><a href = "http://www.google.com"><small>HOW-TO: Программа на Python, часть 3</small></a></li>
+          </ul>
+          <h5 style = "margin-top: 40px">Содержание</h5>
+          <ul style = "margin-bottom: 50px">
+            <li>Списки</li>
+            <li>Комментарии</li>
+          </ul>
+        </div>
+
+        <!-- Правый мега-блок с контентом -->
+        <div class="eight columns">
+          <p>На прошлом уроке мы рассмотрели простую программу, которая использует raw_input для получения ответа от пользователя, простые типы переменных и простой цикл for. В этом уроке мы рассмотрим ещё больше типов переменных и напишем ещё несколько программ.</p>
+          <h3>Списки</h3>
+          <p>Давайте рассмотрим новый тип переменных, который называется <i>список</i>. В других языках программирования они называются <i>массивами</i>. Если мы обратимся к аналогии с коробками для обуви, то список — это несколько склеенных друг с другом коробок с одинаковыми вещами. Например, в одной коробке лежат вилки, в другой — ножи, в третьей — ложки. Посмотрим на простой список — список месяцев. Запишем вот так:</p>
+          <code>months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']</code>
+          <p>Мы назвали наш список <i>months</i> и заключили все его элементы в квадратные скобки (<b>[</b> и <b>]</b>), перечислив их через запятую. Обратиться к элементу списка можно при помощи вот такой записи: <i>months[n]</i>, где <i>n</i> — это номер элемента в списке, начиная от нуля. Например, если мы введём такую команду:</p>
+          <code>print(months[1])</code>
+          <p>то в консоль будет выведено <i>'Feb'</i>.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
